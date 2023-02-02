@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: cadetblue;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+.sign-up{
+    background: whitesmoke;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 700px;
+
+}
+
+.header{
+    border-bottom: 1px solid #a7a5a5;
+    padding: 15px 0;
+}
+
+.header h1{
+    text-align: center;
+}
+
+.body{
+    background: white;
+    padding: 5px 10px;
+}
+
+.row{
+    display: flex;
+}
+
+.input{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 50px;
+    
+}
+
+label{
+    color:darkgreen;
+    font-size: 20px;
+}
+
+input[type="text"],[type="email"],[type="password"],[type="file"],[type="number"],select{
+    width: 100%;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    outline: none;
+    /* height: 34px; */
+    background: whitesmoke;
+    border: 1px solid #d6d6d6;
+    color:darkslategrey;
+}
+
+.radio,.check,.range{
+    display: flex;
+}
+
+.radio div{
+    flex: 1.5;
+}
+
+.radio label,.check label,.range label,.file label{
+    color: darkslategrey;
+}   
+
+.range input{
+    flex: 1;
+}
+
+.footer{
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(14, 237, 14);
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
